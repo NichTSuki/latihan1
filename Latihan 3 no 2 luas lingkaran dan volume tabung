@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+#define phi 3.14152;
+int main()
+{
+
+double d, t, luas, volume;
+
+  cout << "\nMasukkan diameter=";
+  cin >> d;
+  cout << "\nMasukkan tinggi=";
+  cin >> t;
+
+  luas = 0.25*3.14152*d*d;
+  volume = 0.785*d*d*t;
+  cout << "\nLuas lingkaran adalah=" << luas << endl;
+  cout << "\nVolume tabung adalah=" << volume << endl;
+
+  return 0;
+}
