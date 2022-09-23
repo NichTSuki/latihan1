@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int menu;
+  
+  cout << "Pilih menu (ketik 1,2,3, atau 4) = ";
+  cin >> menu;
+
+  if (menu == 1)
+  {cout << "Beli Cake Tape" << endl;}
+  else if (menu == 2)
+  {cout << "Beli Bolu Kukus" << endl;}
+  else if (menu == 3)
+  {cout << "Beli Black Forrest" << endl;}
+  else
+  {cout << "Beli Kue Tart" << endl;}
+
+  return 0;
+  
+}
