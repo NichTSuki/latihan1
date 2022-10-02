@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int nilaiI = 0, nilaiII = 0, nilaiIII = 0, rata;
+  string nama ;
+  string hadiah ;
+
+  cout << "Nama Siswa:";
+  cin >> nama;
+  cout << "Nilai Pertandingan I   =";
+  cin >> nilaiI;
+  cout << "Nilai Pertandingan II  =";
+  cin >> nilaiII;
+  cout << "Nilai Pertandingan III =";
+  cin >> nilaiIII;
+
+  rata = (nilaiI + nilaiII + nilaiIII) / 3;
+
+  cout << endl;
+  cout << "Siswa yang bernama " << nama << endl;
+  cout << "memperoleh nilai rata rata : " << rata << endl;
+  cout << "dari hasil perlombaan yang diikutinya";
+  
+  if (rata >= 85) {
+    cout << "telah mendapatkan 1 unit komputer intel core i5" << endl;
+  }
+  else if (rata >= 70) {
+    cout << "telah mendapatkan uang tunai sebesar Rp 2.500.000" << nama << endl;
+  }
+  else
+    cout << "Semoga beruntung di lain kesempatan";
+  }
