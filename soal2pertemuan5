@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+
+  cout << "Program Ascending" << endl;
+for (int baris1 = 1 ; baris1 <=10 ; baris1++)
+  cout << baris1 << endl;
+
+  cout << "Program Descending" << endl;
+for (int baris2 = 10 ; baris2 >=1 ; baris2--)
+  cout << baris2 << endl;
+  
+ return 0; 
+}
