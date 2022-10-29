@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int nilai [],i,a,bil,jumlah=0,x;
+
+    cout <<"Masukkan jumlah bilangan = ";
+    cin >> x;
+
+    for (i=0;i<x;i++){
+        cout <<"Masukkan Indeks ke-"<<i<<" : ";
+        cin >> nilai[i];
+    }
+
+    cout <<"Deretan bilangan adalah = ";
+    for (i=0;i<x;i++){
+        cout <<nilai[i]<< " ";
+    }
+
+    cout <<"\nMasukkan bilangan yang akan dicari : ";
+    cin >>bil;
+
+    for (i=0;i<x;i++){
+        if (nilai[i] == bil){
+            cout <<"Bilangan " <<bil<< " ditemukan pada indeks ke : " <<i<< endl;
+            
+        }
+    }
+
+    for (i=0;i<x;i++){
+        if (nilai[i] == bil){
+            jumlah++;
+        }
+    }
+    cout <<"\nBilangan "<<bil<< " ditemukan sebanyak "<<jumlah<<" kali";
+
+    return 0;
+}
