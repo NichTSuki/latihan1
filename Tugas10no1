@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+long int pangkatrekursif(int x, int y);
+int main(){
+  int x,y,hasil;
+  cout << "Program rekursif untuk menghitung perpangkatan" << endl;
+  cout << "Masukkan nilai X = ";
+  cin  >> x;
+  cout << "Masukkan nilai Y = ";
+  cin  >> y;
+  hasil = pow(x,y);
+  cout << "Hasil dari " << x << " pangkat " << y << " adalah " << hasil << endl;
+}
