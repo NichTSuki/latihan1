@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Node{
+public:
+string value;
+Node* next;
+};
+
+int main (){
+  
+  Node* head;
+  Node* satu  = NULL;
+  Node* dua   = NULL;
+  Node* tiga  = NULL;
+
+  satu  = new Node();
+  dua   = new Node();
+  tiga  = new Node();
+
+  
+  satu -> value = "Nicholas Tony Sukino";
+  dua  -> value = "TI-22-PA";
+  tiga -> value = "222310020";
+
+  satu -> next = dua;
+  dua  -> next = tiga;
+  tiga -> next = NULL;
+
+head = satu;
+while(head !=NULL){
+  cout << head -> value<<endl;
+  head = head -> next;
+  }
+}
