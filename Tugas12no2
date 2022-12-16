@@ -31,7 +31,7 @@ int main(){
 if(bayar[i].sks==0){
 tetap = 250000;
 var = bayar[i].sks*250000;
-}else if(bayar[i].sks==2){
+}else if(bayar[i].sks){
 tetap = 300000;
 var = bayar[i].sks*300000;
 }cout << endl;
